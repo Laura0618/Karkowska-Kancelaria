@@ -31,8 +31,6 @@ a {
   font-family: "Lora", serif;
 }
 
-h1 {
-}
 
 h2 {
   font-weight: 500;
@@ -83,8 +81,6 @@ p {
   text-decoration-line: underline;
 }
 
-a.navbar-brand {
-}
 
 .navbar .navbar-toggler-icon {
   background-image: url("https://cdn-icons.flaticon.com/png/512/3053/premium/3053386.png?token=exp=1646932727~hmac=7280e97586bf16f0b9b9af98f81f2b36");
