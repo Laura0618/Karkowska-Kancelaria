@@ -351,3 +351,8 @@ p {
   color: #ddd;
   text-decoration: none;
 }
+
+.footer-bottom-content ul li a:hover {
+  color: #baa15e;
+}
+
