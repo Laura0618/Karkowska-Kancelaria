@@ -1,12 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="widt=device-width, initial-scale=1.0" />
     <title>Kancelaria Karkowska</title>
-    <link rel="shortcut icon" href="/assets/icons/favicon.ico" type="image/x-icon">
-    
+    <link
+      rel="shortcut icon"
+      href="/assets/icons/favicon.ico"
+      type="image/x-icon"
+    />
+
     <!-- font -->
     <style>
       @import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600&family=Lora&display=swap");
@@ -47,53 +52,41 @@
   </head>
 
   <body>
-    
+    <!--Navbar-->
     <section class="" id="navegacion">
       <nav class="fixed-top" id="navbar1">
-        <!--Navbar-->
-        <nav class="navbar navbar-expand-lg p-0">
-          <div class="container-fluid">
-            <!-- Navbar brand -->
-            <a class="navbar-brand d-flex" href="#">
-              <img src="assets\img\logo2.png" alt="" width="250" />
-            </a>
-            <!-- Collapse button -->
-            <button
-              class="navbar-toggler"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navmenu"
-              aria-controls="#navmenu"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span class="navbar-toggler-icon"> </span>
-            </button>
-            <!-- Collapsible content -->
-            <div class="col-lg navbar-collapse" id="navmenu">
-              <!-- Links -->
-              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                  <a class="nav-link active" href="#">Kancelaria</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link active" href="#">Zakres</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link active" href="#"> Usług zespół</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link active" href="#">Aktualności</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link active" href="#">Kontakt</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </nav>
+          <nav class="navbar navbar-expand-lg p-0">
+              <div class="container-fluid">
+                  <!-- Navbar brand -->
+                  <a class="navbar-brand d-flex" href="http://kancelariakarkowska.pl/">
+                      <img src="assets\img\logo2.png" alt="" width="250" />
+                  </a>
+                  <!-- Collapse button -->
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu"
+                      aria-controls="#navmenu" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"> </span>
+                  </button>
+                  <!-- Collapsible content -->
+                  <div class="col-lg navbar-collapse" id="navmenu">
+                      <!-- Links -->
+                      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                          <li class="nav-item">
+                              <a class="nav-link active" href="#">Kancelaria</a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link active" href="#">Zakres Usług</a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link active" href="#">Zespół</a>
+                          </li>
+                          
+                      </ul>
+                  </div>
+              </div>
+          </nav>
       </nav>
-    </section>
+  </section>
+    <!--Navbar-->
 
     <!-- 2. Carrousel -->
     <div
@@ -156,8 +149,7 @@
     <!-- Fin Carrousel -->
 
     <!-- about us -->
-
-    <div class="about-area pt-5 pb-3">
+    <div class="about-area pt-5 pb-3" id="kancelaria">
       <div class="container">
         <div class="row">
           <div class="col col-lg-6">
@@ -173,15 +165,22 @@
           </div>
           <div class="col-lg-6">
             <div class="about-text mx-2">
-              <h2>Karkowska Kancelaria</h2>
+              <h2>Kancelaria Karkowska</h2>
               <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur alias iure explicabo, iste laboriosam aperiam, ipsa adipisci laudantium quibusdam qui vitae reiciendis dolorum? Ea hic repellat nobis, architecto omnis tempore.
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Consectetur alias iure explicabo, iste laboriosam aperiam, ipsa
+                adipisci laudantium quibusdam qui vitae reiciendis dolorum? Ea
+                hic repellat nobis, architecto omnis tempore.
               </p>
               <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur, quam. Maxime atque, accusamus odio voluptatem aspernatur a fuga magni laborum possimus. Beatae perferendis nisi a earum vel consectetur odio quasi.</p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Consequuntur, quam. Maxime atque, accusamus odio voluptatem
+                aspernatur a fuga magni laborum possimus. Beatae perferendis
+                nisi a earum vel consectetur odio quasi.
+              </p>
               <div class="btns">
                 <div class="btn-style py-1">
-                  <a href="#">Więcej informacji</a>
+                  <a href="kancekaria.html">Więcej informacji</a>
                 </div>
               </div>
             </div>
@@ -192,7 +191,7 @@
     <!-- about us -->
 
     <!-- Servicios -->
-    <section class="services">
+    <section class="services" id="zakres">
       <div
         class="practice-area practice-style-1 py-5"
         style="background-image: url(assets/img/law1.png)"
@@ -217,7 +216,11 @@
                     <div class="service-text">
                       <h3>Prawa pacjenta Błędy medyczne</h3>
                       <p>
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus id cupiditate molestiae incidunt vitae? Veritatis soluta fugit qui ea pariatur nisi cum provident dignissimos explicabo quia? Ut sed autem commodi?
+                        Lorem ipsum dolor sit amet consectetur, adipisicing
+                        elit. Possimus id cupiditate molestiae incidunt vitae?
+                        Veritatis soluta fugit qui ea pariatur nisi cum
+                        provident dignissimos explicabo quia? Ut sed autem
+                        commodi?
                       </p>
                     </div>
                   </div>
@@ -237,7 +240,11 @@
                     <div class="service-text">
                       <h3>Prawo farmaceutyczne</h3>
                       <p>
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus id cupiditate molestiae incidunt vitae? Veritatis soluta fugit qui ea pariatur nisi cum provident dignissimos explicabo quia? Ut sed autem commodi?
+                        Lorem ipsum dolor sit amet consectetur, adipisicing
+                        elit. Possimus id cupiditate molestiae incidunt vitae?
+                        Veritatis soluta fugit qui ea pariatur nisi cum
+                        provident dignissimos explicabo quia? Ut sed autem
+                        commodi?
                       </p>
                     </div>
                   </div>
@@ -257,7 +264,11 @@
                     <div class="service-text">
                       <h3>Badania kliniczne</h3>
                       <p>
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus id cupiditate molestiae incidunt vitae? Veritatis soluta fugit qui ea pariatur nisi cum provident dignissimos explicabo quia? Ut sed autem commodi?
+                        Lorem ipsum dolor sit amet consectetur, adipisicing
+                        elit. Possimus id cupiditate molestiae incidunt vitae?
+                        Veritatis soluta fugit qui ea pariatur nisi cum
+                        provident dignissimos explicabo quia? Ut sed autem
+                        commodi?
                       </p>
                     </div>
                   </div>
@@ -277,7 +288,11 @@
                     <div class="service-text">
                       <h3>Podmioty lecznicze Zawody medyczne</h3>
                       <p>
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus id cupiditate molestiae incidunt vitae? Veritatis soluta fugit qui ea pariatur nisi cum provident dignissimos explicabo quia? Ut sed autem commodi?
+                        Lorem ipsum dolor sit amet consectetur, adipisicing
+                        elit. Possimus id cupiditate molestiae incidunt vitae?
+                        Veritatis soluta fugit qui ea pariatur nisi cum
+                        provident dignissimos explicabo quia? Ut sed autem
+                        commodi?
                       </p>
                     </div>
                   </div>
@@ -297,7 +312,11 @@
                     <div class="service-text">
                       <h3>Prawo cywilne, gospodarcze i handlowee</h3>
                       <p>
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus id cupiditate molestiae incidunt vitae? Veritatis soluta fugit qui ea pariatur nisi cum provident dignissimos explicabo quia? Ut sed autem commodi?
+                        Lorem ipsum dolor sit amet consectetur, adipisicing
+                        elit. Possimus id cupiditate molestiae incidunt vitae?
+                        Veritatis soluta fugit qui ea pariatur nisi cum
+                        provident dignissimos explicabo quia? Ut sed autem
+                        commodi?
                       </p>
                     </div>
                   </div>
@@ -317,7 +336,11 @@
                     <div class="service-text">
                       <h3>Prawo administracyjne oraz terytorialnych</h3>
                       <p>
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus id cupiditate molestiae incidunt vitae? Veritatis soluta fugit qui ea pariatur nisi cum provident dignissimos explicabo quia? Ut sed autem commodi?
+                        Lorem ipsum dolor sit amet consectetur, adipisicing
+                        elit. Possimus id cupiditate molestiae incidunt vitae?
+                        Veritatis soluta fugit qui ea pariatur nisi cum
+                        provident dignissimos explicabo quia? Ut sed autem
+                        commodi?
                       </p>
                     </div>
                   </div>
@@ -383,14 +406,17 @@
     <!-- fin carousel -->
 
     <!-- Meet our experts -->
-    <section class="experts">
+    <section class="experts" id="zespol">
       <div class="py-5 team">
         <div class="container">
-          
           <div class="row justify-content-center mb-4 mx-0">
             <div class="col-md-7 text-center">
               <h2 class="mb-3">Doświadczony i profesjonalny zespół</h2>
-              <h6>Możesz polegać na naszej niesamowitej liście funkcji, a nasze usługi dla klientów będą dla Ciebie wspaniałym doświadczeniem bez wątpienia i w krótkim czasie</h6>
+              <h6>
+                Możesz polegać na naszej niesamowitej liście funkcji, a nasze
+                usługi dla klientów będą dla Ciebie wspaniałym doświadczeniem
+                bez wątpienia i w krótkim czasie
+              </h6>
             </div>
           </div>
 
@@ -411,7 +437,10 @@
                     <h5 class="mt-4 mb-0">Dorota Karkowska</h5>
                     <h6 class="subtitle mb-3">Prawa Pacjenta</h6>
                     <p>
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Error architecto soluta quasi nostrum adipisci fugiat dolor, quas natus dicta in beatae aliquam ab iste maxime eos unde. Quae, tempore similique.
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Error architecto soluta quasi nostrum adipisci fugiat
+                      dolor, quas natus dicta in beatae aliquam ab iste maxime
+                      eos unde. Quae, tempore similique.
                     </p>
                     <ul class="list-inline">
                       <li class="list-inline-item">
@@ -457,7 +486,10 @@
                     <h5 class="mt-4 mb-0">Dorota Karkowska</h5>
                     <h6 class="subtitle mb-3">Prawa Pacjenta</h6>
                     <p>
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Error architecto soluta quasi nostrum adipisci fugiat dolor, quas natus dicta in beatae aliquam ab iste maxime eos unde. Quae, tempore similique.
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Error architecto soluta quasi nostrum adipisci fugiat
+                      dolor, quas natus dicta in beatae aliquam ab iste maxime
+                      eos unde. Quae, tempore similique.
                     </p>
                     <ul class="list-inline">
                       <li class="list-inline-item">
@@ -503,7 +535,10 @@
                     <h5 class="mt-4 mb-0">Dorota Karkowska</h5>
                     <h6 class="subtitle mb-3">Prawa Pacjenta</h6>
                     <p>
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Error architecto soluta quasi nostrum adipisci fugiat dolor, quas natus dicta in beatae aliquam ab iste maxime eos unde. Quae, tempore similique.
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Error architecto soluta quasi nostrum adipisci fugiat
+                      dolor, quas natus dicta in beatae aliquam ab iste maxime
+                      eos unde. Quae, tempore similique.
                     </p>
                     <ul class="list-inline">
                       <li class="list-inline-item">
@@ -549,7 +584,10 @@
                     <h5 class="mt-4 mb-0">Dorota Karkowska</h5>
                     <h6 class="subtitle mb-3">Prawa Pacjenta</h6>
                     <p>
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Error architecto soluta quasi nostrum adipisci fugiat dolor, quas natus dicta in beatae aliquam ab iste maxime eos unde. Quae, tempore similique.
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Error architecto soluta quasi nostrum adipisci fugiat
+                      dolor, quas natus dicta in beatae aliquam ab iste maxime
+                      eos unde. Quae, tempore similique.
                     </p>
                     <ul class="list-inline">
                       <li class="list-inline-item">
@@ -583,17 +621,14 @@
       </div>
     </section>
     <!-- Meet our experts -->
+
     <!-- footer -->
     <div class="footer-area">
-
       <div class="footer-top py-4">
         <div class="container px-5">
-
           <div class="row">
-
             <div class="col-lg-3 col-md-6 col-sm-6">
               <div class="footer-logo mb-2">
-                
                 <a class="footer-brand d-flex" href="index.html">
                   <img src="assets\img\logo2.png" alt="" width="250" />
                 </a>
@@ -605,7 +640,7 @@
             </div>
             <div class="col-lg-3 col-md-6 col-sm-6">
               <div class="footer-link">
-                <h3 >Quick Link</h3>
+                <h3>Quick Link</h3>
                 <ul class="ps-0">
                   <li><a href="#">Home</a></li>
                   <li><a href="#">Practice Area</a></li>
@@ -640,37 +675,29 @@
               </div>
             </div>
           </div>
-
         </div>
       </div>
 
       <div class="footer-bottom">
         <div class="container">
-
           <div class="footer-bottom-content">
-
             <div class="row">
               <div class="col-lg-6 col-12">
                 <span
-                  >Privacy Policy | © 2021 Karkowska Kancelaria. All rights reserved</span
+                  >Privacy Policy | © 2021 Karkowska Kancelaria. All rights
+                  reserved</span
                 >
               </div>
               <div class="col-lg-6 col-12">
                 <ul class="d-flex">
                   <li>
-                    <a href="#"
-                      ><i class="icon-social-facebook"></i
-                    ></a>
+                    <a href="#"><i class="icon-social-facebook"></i></a>
                   </li>
                   <li>
-                    <a href="#"
-                      ><i class="icon-social-twitter"></i
-                    ></a>
+                    <a href="#"><i class="icon-social-twitter"></i></a>
                   </li>
                   <li>
-                    <a href="#"
-                      ><i class="icon-social-linkedin"></i
-                    ></a>
+                    <a href="#"><i class="icon-social-linkedin"></i></a>
                   </li>
                 </ul>
               </div>
