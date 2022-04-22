@@ -134,9 +134,9 @@ p {
   top: 0px;
   right: 0px;
   bottom: 0px;
-  opacity: 0.8;
+  opacity: 0.90;
   z-index: 0;
-  background-color: #ffffff;
+  background-color: #f8f9fa;
 }
 
 .section-title span {
@@ -156,8 +156,9 @@ p {
   background: #c0b596;
 }
 
-.practice-area .service-icon {
-  padding: 25px 19px 19px 17px;
+.practice-area .service-icon img {
+  filter: saturate(1.2);
+  size: 20%;
 }
 
 .practice-area .service-text {
@@ -172,7 +173,7 @@ p {
   bottom: 33px;
   width: 1px;
   height: 65px;
-  background: #c0b596;
+  background: #151a30;
 }
 
 .practice-area.practice-style-1 h2 {
@@ -210,28 +211,41 @@ p {
   background: #c0b596;
 }
 
+.practice-area.practice-style-1 .service-text h3:hover:before {
+  position: absolute;
+  content: "";
+  left: 0;
+  bottom: 0;
+  width: 72%;
+  height: 2px;
+  background: var(--color-gold);
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in
+}
+
+
+
 .practice-area.practice-style-1 .service-text p {
   color: var(--color-text);
   margin-bottom: 0;
 }
 
-.practice-area.practice-style-1 .service-icon {
-  padding: 0;
-  border: 1px solid #000000;
-  border-radius: 50%;
-  width: 80px;
-  height: 80px;
-  line-height: 75px;
-  text-align: center;
+.service-a {
+  text-decoration: none;
 }
 
+
+ 
 /* OWL CAROUSEL */
 
+
+
 .owl-carousel .item img {
-  height: 100px;
+  height: 150px;
   filter: grayscale(100%);
   border: 1px solid #baa15e;
   border-radius: 0;
+  padding: 10 10px;
 }
 
 .owl-carousel .item img:hover {
@@ -260,7 +274,7 @@ p {
   background-color: #e7e7e7ec;
 }
 
-.team ul li a {
+/* .team ul li a {
   color: #baa15e;
   padding-right: 15px;
   -webkit-transition: 0.1s ease-in;
@@ -272,6 +286,25 @@ p {
   -webkit-transform: translate3d(0px, -5px, 0px);
   transform: translate3d(0px, -5px, 0px);
   color: #e09f3e;
+} */
+
+img.rounded-circle {
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  background-color: #908D8C;
+}
+
+.dk-zespol {
+  font-size: 28px;
+}
+#dorota span{
+  font-size: 20px;
+}
+
+#michal img{
+  filter: grayscale(100%);
 }
 
 /* Footer */
@@ -355,4 +388,6 @@ p {
 .footer-bottom-content ul li a:hover {
   color: #baa15e;
 }
+
+/*  */
 
