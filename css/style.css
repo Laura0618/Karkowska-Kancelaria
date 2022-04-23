@@ -31,7 +31,6 @@ a {
   font-family: "Lora", serif;
 }
 
-
 h2 {
   font-weight: 500;
   font-size: 36px;
@@ -78,9 +77,8 @@ p {
   font-family: "Cinzel", serif;
   font-weight: 400;
   color: var(--color-gold);
-  text-decoration-line: underline;
+  text-decoration-line: none;
 }
-
 
 .navbar .navbar-toggler-icon {
   background-image: url("https://cdn-icons.flaticon.com/png/512/3053/premium/3053386.png?token=exp=1646932727~hmac=7280e97586bf16f0b9b9af98f81f2b36");
@@ -134,7 +132,7 @@ p {
   top: 0px;
   right: 0px;
   bottom: 0px;
-  opacity: 0.90;
+  opacity: 0.9;
   z-index: 0;
   background-color: #f8f9fa;
 }
@@ -220,10 +218,8 @@ p {
   height: 2px;
   background: var(--color-gold);
   transition-duration: 0.5s;
-  transition-timing-function: ease-in
+  transition-timing-function: ease-in;
 }
-
-
 
 .practice-area.practice-style-1 .service-text p {
   color: var(--color-text);
@@ -234,11 +230,7 @@ p {
   text-decoration: none;
 }
 
-
- 
 /* OWL CAROUSEL */
-
-
 
 .owl-carousel .item img {
   height: 150px;
@@ -274,36 +266,45 @@ p {
   background-color: #e7e7e7ec;
 }
 
-/* .team ul li a {
-  color: #baa15e;
-  padding-right: 15px;
-  -webkit-transition: 0.1s ease-in;
-  -o-transition: 0.1s ease-in;
-  transition: 0.1s ease-in;
+.rounded-circle:hover {
+  filter: saturate(1.2);
+  transition-duration: 0.01s;
+  transition-timing-function: ease-in;
 }
 
-.team ul li a:hover {
-  -webkit-transform: translate3d(0px, -5px, 0px);
-  transform: translate3d(0px, -5px, 0px);
-  color: #e09f3e;
-} */
+ .description a {
+  text-decoration: none;
+}
+ .description h4 {
+  background: linear-gradient(to bottom, #baa15e6e 70%, #baa15e6e 100%);
+  background-position: 0 100%;
+  background-repeat: repeat-x;
+  background-size: 4px 4px;
+  text-decoration: none;
+  transition: background-size 0.3s;
+}
+
+ .description h4:hover {
+  background-size: 4px 100%;
+}
 
 img.rounded-circle {
   border-radius: 50%;
   width: 300px;
   height: 300px;
   object-fit: cover;
-  background-color: #908D8C;
+  background-color: #908d8c;
 }
 
 .dk-zespol {
   font-size: 28px;
 }
-#dorota span{
+
+#dorota span {
   font-size: 20px;
 }
 
-#michal img{
+#michal img {
   filter: grayscale(100%);
 }
 
@@ -360,6 +361,12 @@ img.rounded-circle {
 
 .footer-contact ul li {
   padding-top: 8px;
+  font-family: "Lora", serif;
+}
+
+.footer-contact a{
+  text-decoration: none;
+  
 }
 
 .footer-bottom-content {
@@ -367,6 +374,11 @@ img.rounded-circle {
   padding: 15px;
 }
 
+.footer-bottom-content span a {
+text-decoration: none;
+color: #ddd;
+font-weight: 600;
+}
 .footer-bottom-content span {
   color: #ddd;
   font-size: 14px;
@@ -390,4 +402,3 @@ img.rounded-circle {
 }
 
 /*  */
-
