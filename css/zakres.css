@@ -1,0 +1,75 @@
+.main_zakres {
+  background-image: url(/assets/img/law3.png);
+  background-attachment: fixed;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.tit_zakres {
+  background-color: #2b255c92;
+}
+
+.content_zakres {
+  background-color: #e7e7e7ec;
+}
+
+.main_zakres h1 {
+    color: var(--color-primary);
+}
+
+.sec_zakres h6, .sec_zakres ul, .rodo_content li, .zespol_content h6 {
+    font-family: "Lora", serif;
+    line-height: 35px;
+}
+
+
+.sec_zakres ul, .rodo_content ol {
+    margin: 30px 90px;
+    padding-bottom: 50px;
+}
+
+.zespol_details .image {
+  padding: 0 0 0 100px;
+  
+}
+
+.zespol_details .description {
+  text-align: right;
+  padding-right: 100px;
+}
+
+.zespol_details .description h2{
+  position: relative;
+  padding-bottom: 10px;
+}
+
+.zespol_details .description h2::before {
+  content: "";
+  position: absolute;
+  left: 90%;
+  bottom: 0;
+  width: 60px;
+  height: 3px;
+  background: #c0b596;
+  margin-top: 100px;
+}
+
+.zespol_details .description h5 {
+  color: #000;
+  
+}
+
+.zespol_details h6 {
+  line-height: 30px;
+  font-size: 22px;
+  color: var(--color-navy);
+  text-align: right;
+  
+}
+
+.zespol_content h6 {
+  font-size: 22px;
+  padding: 0 100px;
+  text-align: justify;
+}
+
+  
