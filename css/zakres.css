@@ -16,21 +16,18 @@
     color: var(--color-primary);
 }
 
-.sec_zakres h6, .sec_zakres ul, .rodo_content li, .zespol_content h6 {
+.sec_zakres p, .sec_zakres ul, .rodo_content li, .zespol_content h6 {
     font-family: "Lora", serif;
     line-height: 35px;
 }
 
 
 .sec_zakres ul, .rodo_content ol {
-    margin: 30px 90px;
+    font-size: 18px;
     padding-bottom: 50px;
 }
 
-.zespol_details .image {
-  padding: 0 0 0 100px;
-  
-}
+/* Zespol uslug */
 
 .zespol_details .description {
   text-align: right;
@@ -67,9 +64,8 @@
 }
 
 .zespol_content h6 {
-  font-size: 22px;
-  padding: 0 100px;
-  text-align: justify;
+  font-size: 18px;
+  margin: 0 25px;
 }
 
   
